@@ -1,0 +1,198 @@
+@charset "utf-8";
+/*main menu style setup*/
+
+.main-menu {
+  background: lightyellow;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 17px 17px 0px 0px;
+  border-bottom: 2px dotted gray;
+}
+.main-menu ul {
+  display: inline-flex;
+  list-style: none;
+}
+.main-menu ul li {
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+  vertical-align: baseline;
+}
+.main-menu ul li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: slateblue;
+}
+.main-menu .fas, .far {
+  margin-right: 15px;
+}
+.fa-caret-right {
+  float: right;
+}
+/*Original Art Drop down menu set up*/
+.ccMenu {
+    position: relative;
+    display: inline-block;
+    background: lavender;
+    border-radius: 0px 0px 17px 17px;
+    text-align: center;
+    align-items: baseline;
+    width: 100%;
+    color: crimson;
+}
+.ccMenu ul {
+  display: inline-flex;
+  list-style: none;
+
+}
+.ccMenu ul li {
+  width: auto;
+  margin: 3px;
+  padding: 5px;
+  vertical-align: baseline;
+}
+.ccMenu ul li a {
+  text-decoration: none;
+  color: crimson;
+}
+.ccOriginals {
+  display: none;
+
+}
+.ccMenu ul li:hover .ccOriginals {
+  display: block;
+  position: absolute;
+  float: left;
+  border-radius: 0px 0px 15px 15px;
+  background: lavender;
+  margin-top: 10px;
+  margin-left: -25px;
+}
+.ccMenu ul li:hover .ccOriginals ul {
+  display: block;
+  margin: 10px;
+}
+.ccMenu ul li:hover .ccOriginals ul li {
+padding: 3px;
+background: transparent;
+}
+.ccMenu ul li:hover .ccOriginals ul li a:hover {
+  color: slateblue;
+}
+
+/*Original Art The Bois sub Menu*/
+
+  .bMenu {
+  display: none;
+}
+.Tbois:hover .bMenu {
+  display: block;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 111px;
+  width: 150px;
+  background: lavender;
+  border-radius: 0px 15px 15px 0px;
+}
+
+/*Fan Art drop down set up*/
+.ccFanA {
+  display: none;
+}
+.ccMenu ul li:hover .ccFanA {
+  display: block;
+  position: absolute;
+  float: left;
+  border-radius: 0px 0px 15px 15px;
+  background: lavender;
+  margin-top: 10px;
+  margin-left: -25px;
+}
+.ccMenu ul li:hover .ccFanA ul {
+  display: block;
+  margin: 10px;
+}
+.ccMenu ul li:hover .ccFanA ul li {
+padding: 3px;
+background: transparent;
+}
+.ccMenu ul li:hover .ccFanA ul li a:hover {
+  color: slateblue;
+}
+/*Fan Art Yuri on Ice sub Menu*/
+
+.iceMenu {
+  display: none;
+}
+.onIce:hover .iceMenu {
+  position: absolute;
+  display: block;
+  margin-top: -25px;
+  margin-left: 111px;
+  width: 150px;
+  background: lavender;
+  border-radius: 0px 15px 15px 0px;
+}
+/*Picture icon navigation on Home page*/
+.originalArt{
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+
+}
+.image3 {
+  border-radius: 15px;
+  display: block;
+  width: auto;
+  height: auto;
+}
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 97%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+
+}
+.originalArt:hover .overlay3{
+  opacity: 1;
+  border-radius:  0px 0px 15px 15px;
+}
+.fanArt{
+  position: relative;
+  width: 100%;
+  max-width:500px;
+}
+.image4 {
+  border-radius: 15px;
+  display: block;
+  width: auto;
+  height: auto;
+}
+.overlay4 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 97%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.fanArt:hover .overlay4{
+  opacity: 1;
+  border-radius:  0px 0px 15px 15px;
+}
+/*End picture navigation*/

@@ -1,0 +1,46 @@
+/*table style*/ /*new*/
+
+table.calender{
+  width: 100%;
+  border: 3px dotted black;
+  border-collapse: collapse;
+  font-family: Arial, Verdana, sans-serif;
+}
+table.calender tr{
+  height: 25px;
+}
+table.calender th, table.calender td {
+border: 1px solid hotpink;
+vertical-align: top;
+text-align: center;
+padding: 5px;
+}
+table.calender caption{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+  caption-side: top;
+  text-align: center;
+}
+col.sHours{
+  background: mediumaquamarine;
+  width: 10%;
+}
+col.wDayColumns{
+  background: lavenderblush;
+  width: 11%;
+}
+table.calender thead{ /*17 make header names green */
+  color: white;
+  background: black;
+  }
+  table.calender thead th:first-of-type{ /*18 change "Time" header to dark brown*/
+    background:lightseagreen;
+  }
+
+/* Table Footer Styles */
+table.calender tfoot{
+	text-align: center;
+  color: white;
+  background: black;
+}
+/*Table Setup end*/

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+html {
+  margin: 0px;
+  padding: 5px;
+  border: 0px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+header {
+  display: block;
+  width: 100%
+}
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1080px;
+  min-width: 640px;
+/*  -moz-box-shadow: pink 10px 0px 35px,  purple -10px 0px 35px;
+	-webkit-box-shadow: pink 10px 0px 35px,  purple -10px 0px 35px;
+	box-shadow: pink 10px 0px 35px,  purple -10px 0px 35px;  */
+}
+
+nav {
+  display: block;
+  width: auto;
+  height: 35px;
+  vertical-align: baseline;
+}
+
+footer {
+  text-align: center;
+}

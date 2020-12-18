@@ -1,0 +1,15 @@
+.sweetcontainer{
+  margin-top:15px;
+  color: white;
+}
+.sweetcontainer h3{
+  color: beige;
+}
+.sweetcontainer img{
+  width: 200px;
+  padding: 5px;
+}
+.sweetcontainer img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}

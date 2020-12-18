@@ -1,0 +1,89 @@
+/*main menu style setup*/
+.main-menu {
+  background: lightyellow;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 17px 17px 0px 0px ;
+  border-bottom: 2px dotted gray;
+}
+.main-menu ul {
+  display: inline-flex;
+  list-style: none;
+  color: slateblue;
+}
+.main-menu ul li {
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+  vertical-align: baseline;
+}
+.main-menu ul li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: slateblue;
+}
+.main-menu .fas, .far {
+  margin-right: 15px;
+}
+/*Picture icon navigation on Home page*/
+.ccContainer{
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+
+}
+.image1 {
+  border-radius: 15px;
+  display: block;
+  width: auto;
+  height: auto;
+}
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 97%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+
+}
+.ccContainer:hover .overlay1{
+  opacity: 1;
+  border-radius:  0px 0px 15px 15px;
+}
+.kaizuContainer{
+  position: relative;
+  width: 100%;
+  max-width:500px;
+}
+.image2 {
+  border-radius: 15px;
+  display: block;
+  width: auto;
+  height: auto;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 97%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.kaizuContainer:hover .overlay2{
+  opacity: 1;
+  border-radius:  0px 0px 15px 15px;
+}

@@ -1,0 +1,49 @@
+html {
+	background-image: url(glow.png) ;
+	background-size: auto;
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header h1{
+	text-shadow: silver 3px 3px 2px; /*new*/
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif ;
+	float: left;
+	text-align: center;
+	font-size: 36px;
+	padding:25px;
+	margin: 30px;
+}
+.ink {
+	border-radius: 17px;
+}
+/*Side by side icons*/
+#containThis {
+	text-align: center;
+	width: 100%;
+	padding: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ccContainer, .kaizuContainer {
+	width: auto;
+	height: auto;
+	padding-right: 15px;
+	display: inline-block;
+}
+#cantContain {
+	text-align: center;
+	width: 100%;
+	padding: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.originalArt, .fanArt {
+	width: auto;
+	height: auto;
+	padding-right: 15px;
+	display: inline-block;	
+}
